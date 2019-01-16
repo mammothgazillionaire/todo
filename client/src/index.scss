@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*,html{
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+form{
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(31, 59, 71, 0.883);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px 2px rgba(0,0,0,.3);
+}
+
+.Signup {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: .5rem;
+  height: 26rem;
+}
+.login{
+  height: 18rem;
+}
+
+.Todo{
+  height: 10rem;
+}
+.login .form{
+  margin: 1rem 0;
+}
+.form{
+  width: 18vw;
+  height: 1.3rem;
+  padding: .3rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-bottom: 1px solid blueviolet;
+  transition: all .5s;
+  border-radius: 3px;
+}
+
+.form::placeholder{
+  transition: all .3s;
+  text-transform: capitalize;
+}
+.form:focus::placeholder {
+  font-size: 10px;
+  transform: translateY(-6px);
+  color: black;
+}
+.btn{
+  width: 10vw;
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  margin: .4rem auto;
+  border-radius: 5px;
+  background: rgb(132, 136, 130);
+  color: white;
+}
+.btn:hover {
+  background: rgb(113, 119, 110);
+}
+
+.link{
+  margin: 1rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+}
+
+.google {
+  font-family: sans-serif;
+  position: absolute;
+  top: 80%;
+  left: 48%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.link:hover{
+  border-bottom: 1px solid black;
+}
+.google:hover{
+  color: rgb(172, 77, 77);
+}
+
+.tasks{
+  margin: 1rem 0;
+}
+
+.todo__items{
+  text-transform: capitalize;
+  padding: .5rem;
+  letter-spacing: 1px;
+  background: yellowgreen;
+  width: 25%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  box-shadow: 2px -3px 3px 2px rgba(0,0,0,.3);
+}
+.btn--del{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.btn--del:hover{
+  border: 1px solid black;
+  margin-left: 1rem;
+}
+
+.nav{
+  padding: 0;
+  margin: 1rem 0;
+  height: 8vh;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+}
+.nav-link{
+  color: black;
+  margin: 1rem;
+  transition: all .15s;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.nav-link:hover{
+  border-bottom: 1px solid black;
+}
